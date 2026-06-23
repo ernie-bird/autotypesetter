@@ -11,13 +11,15 @@ direction, song lyric, scene number, and so on). It is ready to be placed in InD
 with **Show Import Options → Use InDesign Style Definition** and it picks up
 house styles automatically without tagging paragraph by paragraph.
 
+![The same scene before and after: an unlabeled, one-style manuscript on the left, and the same lines typeset with named paragraph styles on the right.](before_after.png)
+
 ## What it takes in
 
 | Input | What it is |
 |-------|------------|
 | `.fdx` | Final Draft, structure is already declared, so labeling is exact |
 | `.rtf` | A Final Draft RTF export |
-| `.docx` | Word, including an author's file with no real styles delcared |
+| `.docx` | Word, including an author's file with no real styles declared |
 | `.html` | A local HTML file **or** a web URL |
 
 Final Draft files already say what each line is, so the tool just renames the
